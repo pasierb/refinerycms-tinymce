@@ -35,11 +35,12 @@ module Refinery
       end
 
       after_inclusion do
-        %w(tinymce/skins/lightgray/skin.min refinery-fix).each do |stylesheet|
-          Refinery::Core.config.register_visual_editor_stylesheet stylesheet
-        end
+        #%w(tinymce/skins/lightgray/skin.min refinery-fix).each do |stylesheet|
+        #  Refinery::Core.config.register_visual_editor_stylesheet stylesheet
+        #end
 
-        %W(refinery/tinymce_manifest tinymce/themes/modern/theme).each do |javascript|
+        #%W(refinery/tinymce_manifest tinymce/themes/modern/theme).each do |javascript|
+        %W(refinery/tinymce_manifest).each do |javascript|
           Refinery::Core.config.register_visual_editor_javascript javascript
         end
 
