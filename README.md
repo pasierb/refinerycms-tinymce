@@ -4,9 +4,7 @@ TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor contr
 
 This is an extention to Refinery to use TinyMCE as the editor in text fields.
 
-![](http://img-fotki.yandex.ru/get/94893/203537249.14/0_151ef7_7145b111_orig.png)
-
-This is a fork of original [https://github.com/ghoppe/refinerycms-tinymce][https://github.com/ghoppe/refinerycms-tinymce] that provides
+This fork of original work by ghoppe https://github.com/ghoppe/refinerycms-tinymce that provides
 TinyCMS from CDN. It works out of the box, but you may want to register your copy to get rid of "API Key" notification.
 Once you obtain api key put it into secrets.yml
 
@@ -14,6 +12,11 @@ Once you obtain api key put it into secrets.yml
 production:
   tinymce_spi_key: YOUR_API_KEY
 ```
+
+
+![](http://img-fotki.yandex.ru/get/94893/203537249.14/0_151ef7_7145b111_orig.png)
+
+
 
 ## Installation
 
